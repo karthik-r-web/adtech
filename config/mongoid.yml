@@ -1,21 +1,21 @@
 development:
   clients:
     default:
-      database: my_app_development
+      database: adtech_development
       hosts:
         - localhost:27017
 
 test:
   clients:
     default:
-      database: my_app_test
+      database: adtech_test
       hosts:
         - localhost:27017
 
 production:
   clients:
     default:
-      database: my_app_production
+      database: adtech_production
       hosts:
         - 127.0.0.1:27017
       options:
