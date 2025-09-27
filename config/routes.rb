@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  resources :products do
-    collection do
-    resources :variants
-  end
-  end
+
   resources :variants
   resources :doctors
   resources :patients
