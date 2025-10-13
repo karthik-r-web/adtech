@@ -3,8 +3,9 @@ Rails.application.routes.draw do
   resources :doctors
   resources :patients
   resources :appointments
+  resources :users
   root "appointments#index"
-  #
+  resources :images, only: [:create, :show, :destroy]
   # resources :products do
   #   member do
   #   resources :variants
